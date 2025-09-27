@@ -1,0 +1,17 @@
+{
+  "inbounds": [{
+    "port": 1080,
+    "protocol": "socks",
+    "settings": {"auth": "noauth"}
+  }],
+  "outbounds": [{
+    "protocol": "vmess",
+    "settings": {
+      "vnext": [{
+        "address": "your-server.com",
+        "port": 443,
+        "users": [{"id": "af9bde42-054f-49cc-b11a-0ba65bad9784"}]
+      }]
+    }
+  }]
+}
