@@ -1,0 +1,11 @@
+app = "v2ray-app"
+primary_region = "sin"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 8080
+
+[vm]
+  memory_mb = 512
